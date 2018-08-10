@@ -4,7 +4,7 @@
 
 def list_artists
   
-@library.each do = {
+@library.each do {
       :taylor_swift => "Style",
       :silento => "Watch Me",
       :selena_gomez => "Good For You",
@@ -22,6 +22,7 @@ library.values
 #3. Define a method `delete_artist`. This method should take delete the key-value pair from the hash based on the artist and returned the updated hash.
 #This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol. 
 
+def delete_artist 
 
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
 # This method should accept three arguments, the library hash, the artist, and the song.
